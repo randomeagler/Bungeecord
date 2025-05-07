@@ -12,6 +12,7 @@ COPY velocity /app/velocity
 # Copy your startup script
 COPY main.sh /app/main.sh
 RUN chmod +x /app/main.sh
+RUN chmod +x /app/velocity/velocity.toml
 
 # Expose the BungeeCord port
 EXPOSE 8081
