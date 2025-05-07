@@ -15,7 +15,7 @@ RUN chmod +x /app/main.sh
 RUN chmod +x /app/velocity/velocity.toml
 
 # Expose the BungeeCord port
-EXPOSE 8081
+EXPOSE 25565
 
 # Run the startup script
 CMD ["./main.sh"]
