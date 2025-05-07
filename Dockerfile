@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y openjdk-8-jre-headless wget curl
 WORKDIR /app
 
 # Copy your BungeeCord files
-COPY bungee /app/velocity
+COPY velocity /app/velocity
 
 # Copy your startup script
 COPY main.sh /app/main.sh
